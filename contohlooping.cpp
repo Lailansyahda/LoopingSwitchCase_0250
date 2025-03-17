@@ -39,4 +39,15 @@ int main(){
     cout << "Nilai akhir i = " << i << endl;
 
     cout << endl;
+
+    //Loop do while
+    cout << "Perulangan Do While"<< endl;
+    do
+    {
+        cout << "Nilai i = " << i << " TI UMY" << endl;
+        i = rand() % 10;
+        perulanganDo++;
+    } while (i < 7);
+    cout << "Jumlah Perulangan = " << perulanganDo << endl;
+    cout << "Nilai akhir i = " << i << endl;
 }
